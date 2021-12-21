@@ -4,7 +4,20 @@
     <title>test</title>
   </head>
   <body>
-    <div style="background-color: #ddd; height: 100vh">Content</div>
+    <div style="background-color: #ddd; padding: 10px; height: 90vh">
+      <div style="background-color: #33f; width: 400px; height: 400px; margin: 10px; padding: 20px" id="box">
+        <div style="background-color: #3f3; width: 100px; height: 100px; margin: 10px; padding: 20px"></div>
+        <button style="background-color: #f33; width: 100px; margin: 10px; padding: 20px">Button</button>
+      </div>
+    </div>
+    <script>
+      /*document.getElementById("box").onclick = () => console.log("log");*/
+      document.getElementById("box").addEventListener("click", f);
+
+      function f(event) {
+        console.log(event);
+      }
+    </script>
   </body>
 </html>
 

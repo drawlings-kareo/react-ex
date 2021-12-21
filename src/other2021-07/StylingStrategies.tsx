@@ -26,7 +26,7 @@ function CssModulesExample() {
 // JSS
 const styles = createUseStyles({
   myHeader: {
-    color: "blue",
+    color: "#00f",
   },
   myDiv: {
     color: "green",
@@ -43,9 +43,11 @@ function JssExample() {
   );
 }
 
+const c: string = "#00f";
+
 // styled-components
 const Div = styled.div`
-  color: blue;
+  color: ${c};
 `;
 
 const H1 = styled.h1`

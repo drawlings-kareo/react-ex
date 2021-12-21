@@ -1,13 +1,9 @@
-import UncontrolledFunctionComponent from "./other2021-09/UncontrolledFunctionComponent";
-import UncontrolledClassComponent from "./other2021-09/UncontrolledClassComponent";
-import ControlledComponentTest from "./other2021-09/ControlledComponentTest";
+import BoxStyled from "./other2021-11/BoxStyled";
 
 const App = () => {
   return (
     <>
-      <UncontrolledFunctionComponent />
-      <UncontrolledClassComponent />
-      <ControlledComponentTest />
+      <BoxStyled />
     </>
   );
 };
