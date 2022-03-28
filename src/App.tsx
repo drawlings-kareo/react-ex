@@ -1,10 +1,50 @@
+import GridExample from "./other2022-03/GridExample";
+import DataGridExample from "./other2022-03/DataGridExample";
+import CheckboxStylingExample from "./other2022-02/CheckboxStylingExample";
+import ConditionalFormattingExample from "./other2022-02/ConditionalFormattingExample";
+import ThemeProviderExample from "./other2022-02/ThemeProviderExample";
+import PromiseExampleB from "./other2022-02/PromiseExampleB";
+import PromiseExample from "./other2022-02/PromiseExample";
 import BoxStyled from "./other2021-11/BoxStyled";
+import ReactReducerExample from "./other2022-01/ReactReducerExample";
+import UseEffectTest from "./other2022-01/UseEffectTest";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      <BoxStyled />
-    </>
+    <Router>
+      <Route exact path="/">
+        <GridExample />
+        {/*GridExample*/}
+      </Route>
+      <Route exact path="/DataGridExample">
+        <DataGridExample />
+      </Route>
+      <Route exact path="/CheckboxStylingExample">
+        <CheckboxStylingExample />
+      </Route>
+      <Route exact path="/ConditionalFormattingExample">
+        <ConditionalFormattingExample />
+      </Route>
+      <Route exact path="/ThemeProviderExample">
+        <ThemeProviderExample />
+      </Route>
+      <Route exact path="/PromiseExampleB">
+        <PromiseExampleB />
+      </Route>
+      <Route exact path="/PromiseExample">
+        <PromiseExample />
+      </Route>
+      <Route exact path="/BoxStyled">
+        <BoxStyled />
+      </Route>
+      <Route exact path="/ReactReducerExample">
+        <ReactReducerExample />
+      </Route>
+      <Route exact path="/UseEffectTest">
+        <UseEffectTest />
+      </Route>
+    </Router>
   );
 };
 
