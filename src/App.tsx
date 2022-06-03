@@ -1,3 +1,6 @@
+import PlatformTaskFormExample from "./other2022-05/PlatformTaskFormExample";
+import NoValidateExample from "./other2022-05/NoValidateExample";
+import OrAsNullCheckExample from "./other2022-04/OrAsNullCheckExample";
 import GridExample from "./other2022-03/GridExample";
 import DataGridExample from "./other2022-03/DataGridExample";
 import CheckboxStylingExample from "./other2022-02/CheckboxStylingExample";
@@ -14,8 +17,13 @@ const App = () => {
   return (
     <Router>
       <Route exact path="/">
+        <PlatformTaskFormExample />
+      </Route>
+      <Route exact path="/OrAsNullCheckExample">
+        <OrAsNullCheckExample />
+      </Route>
+      <Route exact path="/GridExample">
         <GridExample />
-        {/*GridExample*/}
       </Route>
       <Route exact path="/DataGridExample">
         <DataGridExample />

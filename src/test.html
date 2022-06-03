@@ -1,4 +1,37 @@
 <!DOCTYPE html>
+<html>
+  <body>
+    <h1>The form novalidate attribute</h1>
+
+    <form onsubmit="f()">
+      <label for="email">Enter your email:</label>
+      <input type="text" id="email" name="email" required /><br /><br />
+      <input type="submit" />
+    </form>
+
+    <p><strong>Note:</strong> The novalidate attribute of the form tag is not supported in Safari 10 (or earlier).</p>
+
+    <script>
+      function f() {
+        console.log("here");
+      }
+      /*novalidate onsubmit="f()"*/
+    </script>
+  </body>
+</html>
+
+<!-- !DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <textarea style="width: 700px; resize: none; height: 100px"></textarea>
+  </head>
+  <body></body>
+</html -->
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -38,7 +71,7 @@
       </div>
     </div>
   </body>
-</html>
+</html> -->
 
 <!--
 <!DOCTYPE html>
