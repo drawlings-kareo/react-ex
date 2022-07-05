@@ -1,5 +1,5 @@
-import PlatformTaskFormExample from "./other2022-05/PlatformTaskFormExample";
-import NoValidateExample from "./other2022-05/NoValidateExample";
+import UseRefEx from "./other2022-06/UseRefEx";
+import UseCallbackEx from "./other2022-06/UseCallbackEx";
 import OrAsNullCheckExample from "./other2022-04/OrAsNullCheckExample";
 import GridExample from "./other2022-03/GridExample";
 import DataGridExample from "./other2022-03/DataGridExample";
@@ -17,7 +17,10 @@ const App = () => {
   return (
     <Router>
       <Route exact path="/">
-        <PlatformTaskFormExample />
+        <UseRefEx />
+      </Route>
+      <Route exact path="/UseCallbackEx">
+        <UseCallbackEx />
       </Route>
       <Route exact path="/OrAsNullCheckExample">
         <OrAsNullCheckExample />
