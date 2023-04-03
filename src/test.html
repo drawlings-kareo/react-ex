@@ -1,5 +1,73 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="../public/favicon.ico" />
+    <style>
+      :root {
+        --x: red;
+      }
+      /*.butt:hover {
+        background: blue;
+      }*/
+      .butt:focus-visible {
+        background: green;
+      }
+      /*.butt:active {
+        background: red;
+        box-shadow: 10px 10px yellow;
+      }*/
+      div {
+        border: solid 1px;
+      }
+      a,
+      .butt {
+        background-color: #ff8d6e;
+        border: #ff8d6e;
+        color: #004852;
+        background-image: none;
+        text-shadow: none;
+        box-shadow: none;
+        font-weight: 400;
+        border-radius: 24px;
+        padding: 1rem;
+        margin: 4rem;
+      }
+      .butt:hover {
+        background-color: #ffaf95;
+        cursor: pointer;
+      }
+      a:hover {
+        background-color: #ffaf95;
+        cursor: pointer;
+      }
+      .butt:focus {
+        background: var(--x);
+        outline: green 10px solid;
+      }
+      a:focus {
+        background: blue;
+        outline: green 10px solid;
+      }
+      .apple {
+        -webkit-box-reflect: below 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="apple">
+      <button class="butt">button</button>
+      <button class="butt" role="apple">button</button>
+      <button class="butt" role="article">button</button>
+      <div role="frame">yo</div>
+      <a href>a button</a>
+      <button class="butt" role="article">button</button>
+      <div class="pear">pear</div>
+    </div>
+  </body>
+</html>
+
+  <!--DOCTYPE html>
+<html>
   <body>
     <h1>The form novalidate attribute</h1>
 
@@ -18,9 +86,9 @@
       /*novalidate onsubmit="f()"*/
     </script>
   </body>
-</html>
+</html-->
 
-<!-- !DOCTYPE html>
+  <!-- !DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -31,7 +99,7 @@
   <body></body>
 </html -->
 
-<!-- <!DOCTYPE html>
+  <!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -73,7 +141,7 @@
   </body>
 </html> -->
 
-<!--
+  <!--
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -100,7 +168,7 @@
 </html>
 -->
 
-<!--
+  <!--
 <!DOCTYPE html>
 <html lang="en">
   <style>
@@ -152,7 +220,7 @@
 </html>
 -->
 
-<!-- <!DOCTYPE html>
+  <!-- <!DOCTYPE html>
 <html>
   <head>
     <title>test</title>
@@ -175,7 +243,7 @@
   </body>
 </html> -->
 
-<!-- <!DOCTYPE html>
+  <!-- <!DOCTYPE html>
 <html>
   <head>
     <title>test</title>
@@ -199,7 +267,7 @@
 </html>
 -->
 
-<!--
+  <!--
     <div>
       <div style="position: relative; right: 60px; border: 3px solid black">testA</div>
       <div style="position: relative; border: 3px solid black">testB</div>
@@ -211,3 +279,4 @@
     </div>
 
 -->
+</DOCTYPE>
