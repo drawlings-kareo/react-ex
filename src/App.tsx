@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+import TwoColumnScrollableEx from "./other2022-10/TwoColumnScrollableEx";
+import ClassComponentEx from "./other2022-09/ClassComponentEx";
+import PartialEx from "./other2022-09/PartialEx";
+import WhenPropsChangeEx from "./other2022-08/WhenPropsChangeEx";
+import ParentPropsEx from "./other2022-08/ParentPropsEx";
+>>>>>>> 56b6ad8c942c244ee1088287ece179454f429f3a
 import StepperEx from "./other2022-07/StepperEx";
 import DebounceEx from "./other2022-07/DebounceEx";
 import UseRefEx from "./other2022-06/UseRefEx";
@@ -19,6 +27,24 @@ const App = () => {
   return (
     <Router>
       <Route exact path="/">
+<<<<<<< HEAD
+=======
+        <TwoColumnScrollableEx />
+      </Route>
+      <Route exact path="/ClassComponentEx">
+        <ClassComponentEx />
+      </Route>
+      <Route exact path="/PartialEx">
+        <PartialEx />
+      </Route>
+      <Route exact path="/WhenPropsChangeEx">
+        <WhenPropsChangeEx />
+      </Route>
+      <Route exact path="/ParentPropsEx">
+        <ParentPropsEx />
+      </Route>
+      <Route exact path="/StepperEx">
+>>>>>>> 56b6ad8c942c244ee1088287ece179454f429f3a
         <StepperEx />
       </Route>
       <Route exact path="/DebounceEx">
