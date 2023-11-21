@@ -1,3 +1,5 @@
+import StepperEx from "./other2022-07/StepperEx";
+import DebounceEx from "./other2022-07/DebounceEx";
 import UseRefEx from "./other2022-06/UseRefEx";
 import UseCallbackEx from "./other2022-06/UseCallbackEx";
 import OrAsNullCheckExample from "./other2022-04/OrAsNullCheckExample";
@@ -17,6 +19,12 @@ const App = () => {
   return (
     <Router>
       <Route exact path="/">
+        <StepperEx />
+      </Route>
+      <Route exact path="/DebounceEx">
+        <DebounceEx />
+      </Route>
+      <Route exact path="/UseRefEx">
         <UseRefEx />
       </Route>
       <Route exact path="/UseCallbackEx">
